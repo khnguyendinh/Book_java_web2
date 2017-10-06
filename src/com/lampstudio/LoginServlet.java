@@ -70,6 +70,7 @@ public class LoginServlet extends HttpServlet
         }
         else
         {
+            System.out.println("LoginServlet.doPost login success");
             session.setAttribute("username", username);
             request.changeSessionId();
             response.sendRedirect("tickets");

@@ -15,7 +15,7 @@
                 <%
             }
         %>
-        <form method="POST" action="<c:url value="/login" />
+        <form method="POST" action="c:url" value="/login" >
             Username<br />
             <input type="text" name="username" /><br /><br />
             Password<br />
